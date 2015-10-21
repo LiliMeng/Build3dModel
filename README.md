@@ -11,3 +11,9 @@ the other.
 The essential matrix E is purely geometrical and knows nothing about imagers. It relates the location, in physical coordi-
 nates, of the point P as seen by the left camera to the location of the same point as seen by the right camera (i.e., it relates p l to p r ). Th e fundamental matrix F relates the points on the image plane of one camera in image coordinates (pixels) to the points on the image plane of the other camera in image coordinates (for which we will use the notation
 q l and q r ).
+
+the fundamental matrix F is just like the essential matrix E, except that
+F operates in image pixel coordinates whereas E operates in physical coordinates.* Just
+like E, the fundamental matrix F is of rank 2. Th e fundamental matrix has seven pa-
+rameters, two for each epipole and three for the homography that relates the two image
+planes (the scale aspect is missing from the usual four parameters).

@@ -7,3 +7,7 @@ same matrix and should not be confused. An essential part of the defi nition of 
 a plane viewed by a camera and thus could relate one point in that plane to the point on the camera plane.
 Th e matrix E makes no such assumption and so will only be able to relate a point in one image to a line in
 the other.
+
+The essential matrix E is purely geometrical and knows nothing about imagers. It relates the location, in physical coordi-
+nates, of the point P as seen by the left camera to the location of the same point as seen by the right camera (i.e., it relates p l to p r ). Th e fundamental matrix F relates the points on the image plane of one camera in image coordinates (pixels) to the points on the image plane of the other camera in image coordinates (for which we will use the notation
+q l and q r ).
